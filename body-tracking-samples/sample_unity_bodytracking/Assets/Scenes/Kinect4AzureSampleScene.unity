@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 1088374318}
   - component: {fileID: 1088374317}
   m_Layer: 0
-  m_Name: SerialTest
+  m_Name: SerialHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -566,7 +566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2767c55570fa9964ab66711b7524d36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonJointPosition: {fileID: 475033839}
+  skeleton: {fileID: 475033839}
+  joints: 1a000000080000000f00000000000000
+  sendInterval: 0.25
   serialHandler: {fileID: 1088374319}
 --- !u!114 &1088374318
 MonoBehaviour:
